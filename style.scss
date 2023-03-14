@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Cormorant+Upright:wght@300;400;500;600;700&family=Dosis:wght@200;300;400;500;600;700;800&family=Forum&family=Golos+Text:wght@400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700;900&family=Varela+Round&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  font-family: 'Golos Text',sans-serif;
+  background: #ffffff;
+}
+
+#root{
+  margin-left: 35%;
+  border: 1px solid rgba(152, 147, 147, 0.41);
+  width: 380px;
+  height: 450px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+  }
+  .ins{
+    position: relative;
+    padding-bottom: 20px;
+    img{
+      position: absolute;
+      left: -119px;
+      top: -76px;
+      width: 231px
+    }
+  }
+  .ins-block{
+  }
+  .for-ins{
+    position: relative;
+    margin: 10px 0;
+    input{
+      border-radius: 5px;
+      padding-left: 5px;
+      margin-left: 10px;
+      border: 1px solid rgba(34, 34, 34, 0.41);
+      width: 300px;
+      height: 40px;
+      outline: none;
+      font-size: 13px;
+    }
+
+  }
+  .btn{
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 300px;
+    height: 37px;
+    color: white;
+    background: #3a4fef;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    &:active{
+      transition: .4s;
+    }
+  }
+  .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0;
+    p{
+      font-size: 13px;
+      color: #3d3c3c;
+      width: 270px;
+    }
+    a{
+      font-weight: 600;
+      color: #3d3c3c;
+    }
+  }
+  .icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0;
+    &--f{
+      display: flex;
+      align-items: center;
+      margin-left: 30px;
+      hr{
+        width: 100px;
+        background: #3a3939;
+      }
+      h1{
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    }
+    &--g{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img{
+        width: 40px;
+        margin-left: 5px;
+      }
+      a{
+        font-size: 15px;
+        color: blue;
+        padding-left: 5px;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+
+
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+  #root {
+    margin-left: 27%;
+    border: 1px solid rgba(152, 147, 147, 0.41);
+    width: 380px;
+    height: 450px;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  #root {
+    margin-left: 18%;
+    border: 1px solid rgba(152, 147, 147, 0.41);
+    width: 380px;
+    height: 450px;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 430px) {
+  #root {
+    margin-left: 6%;
+    border: 1px solid rgba(152, 147, 147, 0.41);
+    width: 380px;
+    height: 450px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 428px) {
+  #root {
+    margin-left: 5.5%;
+    border: none;
+    width: 374px;
+    height: 450px;
+    margin-top: 50px;
+  }
+  #root .for-ins input {
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-left: 10px;
+    border: 1px solid rgba(34, 34, 34, 0.41);
+    width: 292px;
+    height: 40px;
+    outline: none;
+    font-size: 13px;
+  }
+  #root .btn {
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 292px;
+    height: 37px;
+    color: white;
+    background: #3a4fef;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+}
+
+
+@media (max-width: 414px) {
+  #root {
+    margin-left: 3.5%;
+    border: none;
+    width: 374px;
+    height: 450px;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  #root {
+    margin-left: 2.5%;
+    border: none;
+    width: 374px;
+    height: 450px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 390px) {
+  #root {
+    margin-left: 0.5%;
+    border: none;
+    width: 374px;
+    height: 450px;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  #root {
+    margin-left: -0.5%;
+    border: none;
+    width: 374px;
+    height: 450px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 360px) {
+  #root {
+    margin-left: -2.5%;
+    border: none;
+    width: 374px;
+    height: 450px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 320px) {
+  #root {
+    margin-left: -9.5%;
+    border: none;
+    width: 372px;
+    height: 445px;
+    margin-top: -7px;
+  }
+  #root .ins img {
+    position: absolute;
+    left: -102px;
+    top: -62px;
+    width: 211px;
+  }
+  #root .for-ins input {
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-left: 10px;
+    border: 1px solid rgba(34, 34, 34, 0.41);
+    width: 281px;
+    height: 38px;
+    outline: none;
+    font-size: 12px;
+  }
+  #root .btn {
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 281px;
+    height: 35px;
+    color: white;
+    background: #3a4fef;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+
+}
